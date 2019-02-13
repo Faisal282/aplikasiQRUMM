@@ -1,0 +1,11 @@
+<?php if($i%2 == 1) : ?>
+		<div class="row">
+		<?php endif; ?>
+			<div class="col s5 red lighten-3 center">
+				<h1>
+					<?= $kantin[$i]['nama_penjual'] ?>
+				</h1>
+			</div>
+		<?php if($i%2 == 1) : ?>
+		</div>
+		<?php endif; ?>
